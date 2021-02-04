@@ -1,0 +1,25 @@
+platform :ios,"10.0"
+ 
+target 'FoundingAZ' do
+  inhibit_all_warnings!
+  use_frameworks!
+
+  pod 'Masonry'
+  pod 'libextobjc'
+  pod 'IQKeyboardManager'
+  pod 'AFNetworking'
+  pod 'SDWebImage'
+  pod 'MBProgressHUD'
+  pod 'MJRefresh'
+  pod 'TZImagePickerController'
+  pod 'YYText'
+pod 'ZegoExpressEngine/Video'
+pod 'SDCycleScrollView','>= 1.82'
+# 在 Podfile 文件中添加下面内容
+pod 'RongCloudIM/IMKit', '~> 5.0.0' #即时通讯基础 UI 组件
+pod 'RongCloudIM/IMLib', '~> 5.0.0'  # 即时通讯基础能力
+pod 'LYEmptyView'#无网络
+pod "PYSearch"#search
+ pod 'JXCategoryView'
+pod 'YYModel', '~> 1.0.4'
+end
